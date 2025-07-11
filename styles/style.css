@@ -269,6 +269,7 @@ nav {
     line-height: 1.2;
 
 }
+
 /* feedback style  */
 .feedback {
     display: flex;
@@ -401,6 +402,7 @@ nav {
     height: 364px;
     border-radius: 48px;
 }
+
 /* Let’s Get In Touch */
 .contact{
     display: flex;
@@ -470,4 +472,73 @@ form input::placeholder,form textarea::placeholder{
     color: rgba(0,0,0,0.5);
     font-family: "Inter", sans-serif;
      
+}
+
+/* footer section  */
+footer{
+    background: #ffffff;
+    padding: 104px 0;
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;  
+   
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: start;
+    row-gap: 20px;
+    width: 531px;
+    margin: 0 auto;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 8px;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1.2;
+
+}
+
+.footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-nav{
+    padding: 0;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 48px;
+    
+}
+
+footer li a{
+    color: #8987A7;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter";
+
+}
+footer li a:hover{
+    color:#4e47ff
 }
