@@ -1,0 +1,187 @@
+/* Global Style  */
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav,
+main
+{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+body {
+    background: #f5f8ff;
+}
+/* colors */
+.primary-color {
+    color: #4e47ff;
+}
+
+.primary-bg-01 {
+    background: rgba(78, 71, 255, 1);
+}
+
+.primary-bg-02 {
+    background: rgba(78, 71, 255, 0.1);
+
+}
+
+.primary-shade {
+    background: rgba(78, 71, 255, 0.1);
+}
+
+
+.dark-01 {
+    color: #252432;
+
+}
+
+.dark-02 {
+    color: rgba(37, 36, 50, 0.5);
+
+
+}
+
+.dark-03 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dark-04 {
+    color: #1e1e1e;
+
+
+}
+
+.dark-05 {
+    color: #757575;
+}
+
+.dark-06 {
+    color: #b3b3b3;
+}
+
+.dark-07{
+    color: #8987A1;
+}
+
+.light {
+    color: #ffffff;
+}
+
+.light-shade {
+    background: rgba(255, 255, 255, 1);
+}
+
+.light-bg {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    background: url('../assets/banner-bg.png');
+    padding: 0px 0px 0px 0px;
+
+}
+
+/* nav style */
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-items: stretch;
+    justify-content: space-between;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #4e47ff;
+    color: #ffffff;
+    background-color: #4e47ff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #4e47ff;
+    transform: scale(1.05);
+}
+
+
+
+/* hero style */
+
+.hero {
+    padding: 158px 0 148px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    width: 905px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    row-gap: 37px;
+}
+
+.hero-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+/* action styls */
+.action {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-items: stretch;
+    justify-content: space-between;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
