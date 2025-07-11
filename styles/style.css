@@ -185,3 +185,87 @@ nav {
     margin-top: 116px;
     margin-bottom: 116px;
 }
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    align-content: start;
+    justify-content: start;
+    row-gap: 23px;
+    width: 517px;
+    height: auto;
+}
+
+.left h2 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.left p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.right img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* productive user styles */
+.productive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding: 50px 80px 50px 80px;
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+
+.productive-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.productive-content h3 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.achievements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 158px;
+}
+
+.achievements-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements-title {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.achievements-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+
+}
